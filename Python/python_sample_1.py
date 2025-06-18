@@ -5,6 +5,7 @@ def findArea(r):
 	return PI * (r*r); 
 
 # Driver method 
-print("Area is %.6f" % findArea(5)); 
+value = float(input("Enter the Value : "))
+print("Area is %.6f" % findArea(value)); 
 
 # This code is contributed by Chinmoy Lenka
